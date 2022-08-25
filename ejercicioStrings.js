@@ -1,0 +1,10 @@
+let nombre = "Lucia"
+let apellido = "Cerpa"
+let estudiante = `${nombre} ${apellido}`
+let estudianteMayus = estudiante.toUpperCase()
+let estudianteMinus = estudiante.toLowerCase()
+let longitudStringEstudiante = estudiante.length
+let letraInicial = estudiante[0]
+let letraFinal = estudiante[estudiante.length-1]
+let sinEspacios = estudiante.trim()
+let incluyeElNombre = estudiante.includes("Lucia")
